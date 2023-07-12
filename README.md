@@ -1,4 +1,4 @@
-# Medical-Insurance-Premium-Predication---Linear-Regession
+# Medical-Insurance-Premium-Regression Analysis Using Artificial Neural Networks (ANN)
 
 This case study aims to build, train and test a machinie learning model to predict insurance cost based on customer features such as age, gender, Body Mass Index (BMI), number of children, smoking habits, and geo-location.
 
