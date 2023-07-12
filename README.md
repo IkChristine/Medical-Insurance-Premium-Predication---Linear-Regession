@@ -68,10 +68,9 @@ epochs_hist = ANN_model.fit(X_train, y_train, epochs = 100, batch_size= 20, vali
 
 <p>&nbsp;</p>
 
-## Dropout layers added
-
+## Dropout layers added to improve the network generalization ability
 ANN_model.add(Dropout(0.5)
-After Dropout layers were added the Accuracy score was 80.4% and there was less overfit.
+- After Dropout layers were added the Accuracy score was 80.4% and there was less overfit.
 
 ![8b42ebba-076c-40ff-b3d4-0ed1612cb32e](https://github.com/IkChristine/Medical-Insurance-Premium-Predication-using-ML-Linear-Regression-/assets/104997783/27ee3249-6032-4f0b-b7e2-8c505be5fe60)
 
@@ -86,4 +85,4 @@ After Dropout layers were added the Accuracy score was 80.4% and there was less 
 - Adjusted R2 = 0.7886005955108537
 
 
-After dropout was introduced, the coefficient of determination (R2) became **79.5%** compared to 72.9% before dropout.
+**After dropout was introduced, the coefficient of determination (R2) became **79.5%** compared to 72.9% before dropout.**
