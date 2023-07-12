@@ -37,7 +37,8 @@ Adjusted R2 = 0.6859179432461717
 - This is a reasonable score however we can still attempt to increase the score and get it closer to 100%.
 
 <p>&nbsp;</p>
-## TRAINING AND EVALUATING AN ARTIFICIAL NEURAL NETWORK (ANN)-BASED REGRESSION MODEL (Keras API)
+
+## TRAINING AND EVALUATING AN ARTIFICIAL NEURAL NETWORK (ANN) BASED REGRESSION MODEL (Keras API)
 - ANN_model = keras.Sequential() 
 - resulted in about 38,351 artificially trainable parameters to optimize
 ANN_model.compile(optimizer='Adam', loss='mean_squared_error')
