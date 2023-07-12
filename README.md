@@ -26,12 +26,12 @@ This case study aims to build, train and test a machinie learning model to predi
 <p>&nbsp;</p>
 
 ## TRAINING AND EVALUATING A LINEAR REGRESSION MODEL IN SCIKIT-LEARN
-- Linear Regression Model achileved a 69% accuracy score.
-RMSE = 6536.847 
-MSE = 42730370.0 
-MAE = 4555.098 
-R2 = 0.6953286415758744 
-Adjusted R2 = 0.6859179432461717
+Linear Regression Model achileved a 69% accuracy score.
+- RMSE = 6536.847 
+- MSE = 42730370.0 
+- MAE = 4555.098 
+- R2 = 0.6953286415758744 
+- Adjusted R2 = 0.6859179432461717
 
 - The coefficient of determinatio (R2) was 69%. This means that 69% of the variations in the output (Charges) was represented by the variations in the input features.
 - This is a reasonable score however we can still attempt to increase the score and get it closer to 100%.
@@ -56,11 +56,11 @@ epochs_hist = ANN_model.fit(X_train, y_train, epochs = 100, batch_size= 20, vali
 
 - Beyond 20,000, the model predictions did not accurately match the True values (test data set).
 
-RMSE = 6161.465 
-MSE = 37963650.0 
-MAE = 3815.8079 
-R2 = 0.7293158320104738 
-Adjusted R2 = 0.7209549310687123
+- RMSE = 6161.465 
+- MSE = 37963650.0 
+- MAE = 3815.8079 
+- R2 = 0.7293158320104738 
+- Adjusted R2 = 0.7209549310687123
 
 - The coefficient of determinatio (R2) is 72%, which slighlty more accurate compared to the linear regresion model with scikit learn.
 
@@ -75,11 +75,11 @@ After Dropout layers were added the Accuracy score was 80.4% and there was less 
 ![583ade7f-f718-4171-a350-d17799225355](https://github.com/IkChristine/Medical-Insurance-Premium-Predication-using-ML-Linear-Regression-/assets/104997783/6e7c78fe-2fc7-4c78-9e32-675b02c10ed3)
 
 
-RMSE = 5362.887 
-MSE = 28760556.0 
-MAE = 3271.4172 
-R2 = 0.7949346600648356 
-Adjusted R2 = 0.7886005955108537
+- RMSE = 5362.887 
+- MSE = 28760556.0 
+- MAE = 3271.4172 
+- R2 = 0.7949346600648356 
+- Adjusted R2 = 0.7886005955108537
 
 
 After dropout was introduced, the coefficient of determination (R2) became **79.5%** compared to 72.9% before dropout.
