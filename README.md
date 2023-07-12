@@ -68,7 +68,7 @@ epochs_hist = ANN_model.fit(X_train, y_train, epochs = 100, batch_size= 20, vali
 
 <p>&nbsp;</p>
 
-#### Dropout layers added
+## Dropout layers added
 After Dropout layers were added the Accuracy score was 80.4% and there was less overfit.
 
 ![8b42ebba-076c-40ff-b3d4-0ed1612cb32e](https://github.com/IkChristine/Medical-Insurance-Premium-Predication-using-ML-Linear-Regression-/assets/104997783/27ee3249-6032-4f0b-b7e2-8c505be5fe60)
