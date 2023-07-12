@@ -46,12 +46,14 @@ epochs_hist = ANN_model.fit(X_train, y_train, epochs = 100, batch_size= 20, vali
 - Resulted to an acciracu score of about 74%
 
 <p>&nbsp;</p>
+
 ![b885aaf9-831c-45cf-92fd-44f4368c16cb](https://github.com/IkChristine/Medical-Insurance-Premium-Predication-using-ML-Linear-Regression-/assets/104997783/c45c667f-f8a2-48e8-a19a-42cc34bc4559)
 
 - The Validation error tends to increase slightligh, showing the model is overfiting the training data, however, model still performed quite well.
 - In essence, performance on training data was good, but not great on test data.
 
 <p>&nbsp;</p>
+
 ![164cc399-4407-4068-8ecc-64b22af5dfbe](https://github.com/IkChristine/Medical-Insurance-Premium-Predication-using-ML-Linear-Regression-/assets/104997783/5d151e37-6d29-4083-963a-32442d1d73ec)
 
 - Beyond 20,000, the model predictions did not accurately match the True values (test data set).
